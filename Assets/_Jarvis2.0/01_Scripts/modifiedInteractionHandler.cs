@@ -26,7 +26,7 @@ using UnityEngine.UI;
 
 namespace Oculus.Voice.Demo
 {
-    public class modifiedInteractionHandler : MonoBehaviour
+    public class ModifiedInteractionHandler : MonoBehaviour
     {
         [Header("Default States"), Multiline]
         [SerializeField] private string freshStateText = "Try pressing the Activate button and saying \"Make the cube red\"";

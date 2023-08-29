@@ -14,6 +14,7 @@ public class VoiceController : MonoBehaviour
 
     private bool appVoiceActive;
 
+    [Obsolete]
     private void Awake()
     {   
         // when you start, you don't want anything from the text fields
